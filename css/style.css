@@ -56,7 +56,8 @@ a{
   color: white;
   text-decoration: none;
 }
-
+/********** HEADER ***********/
+ 
 header ul{
   list-style: none;
   display: flex;
@@ -78,6 +79,9 @@ header .container{
   background-image: url(../img/jumbo.png);
   background-size: cover;
  }  
+ /********* /HEADER *******/
+
+ /******* MAIN ********/
 
 .grigio{
   background-color: rgb(255, 0, 0, 0.2);
