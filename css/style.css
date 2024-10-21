@@ -42,11 +42,24 @@ header{
   align-items: center;
 }
 
+header ul{
+  list-style: none;
+  display: flex;
+  font-size: 0.5rem;
+}
+header ul li{
+  padding: 15px;
+}
+.logo img{
+  width: 70px;
+  padding: 15px;
+}
+
 header .container{
   width: 100%;
   background-image: url(../img/jumbo.png);
   background-size: cover;
-}  
+ }  
 
 .grigio{
   background-color: rgb(255, 0, 0, 0.2);
