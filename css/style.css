@@ -46,8 +46,8 @@ header{
   color: black;
   background-color: white;
   padding: 10px;
-  border-radius: 20px;
-  font-size: 0.9rem;
+  border-radius: 25px;
+  font-size: 0.8rem;
 }
 
 h1{
@@ -78,12 +78,22 @@ header .container{
   width: 100%;
   background-image: url(../img/jumbo.png);
   background-size: cover;
+  padding-bottom: 160px;
 }  
 
 .slogan{
   margin: 30px 250px;
   line-height: 1.5rem;
   
+}
+.box .button{
+  padding: 15px 20px;
+  font-size: 1rem;
+  margin: 10px;
+}
+.black{
+  color: white;
+  background-color: black;
 }
 
 header ul li a:hover{
