@@ -93,7 +93,7 @@ header .container{
   background-color: black;
 }
 
-header ul li a:hover{
+ul li a:hover{
   text-decoration: underline;
 }
 
@@ -114,6 +114,7 @@ header ul li a:hover{
 
 .img{
   max-width: 750px;
+  ;
 }
 
 .txt{
@@ -132,20 +133,80 @@ h2{
 
 .tecnologia{
   text-align: center;
-  padding: 30px 290px;
+  padding: 30px 250px;
+  padding-bottom: 100px;
 }
 
 .tecnologia p{
-  margin: 20px 0px;
+  margin: 20px 30px;
   line-height: 1.5rem;
+  }
+
+.tecnologia h3{
+ font-size: 1.5rem;
+ background-image: url(../img/stars.svg);
+ background-size: contain;
+ margin: 45px;
+
+}
+
+.tecnologia .button{
+  color: white;
+  background-color: #90A1E2;
+  font-size: 1rem;
+}
+
+
+/****** FOOTER *************/
+.info{
+  border-bottom: 1px solid #4F515A;
 }
 .info{
   width: 80%;
-  height: 600px; /****************debug************/
   display: flex;
   justify-content: space-between;
 }
-
+.info h3{
+  font-size: 1.5rem;
+  color: #778FD6;
+  padding-bottom: 15px;
+}
 .grande{
   width: 250px;
+}
+
+p.lingua{
+  display: inline-block;
+  line-height: 18px;
+}
+
+.grande img{
+  height: 18px;
+  width: 28px;
+}
+
+.grande p{
+  margin-top: 20px;
+}
+
+footer ul{
+  list-style: none
+}
+
+.info li{
+  padding-bottom: 15px;
+  font-size: 0.8rem;
+}
+
+footer li:first-child{
+  color: #778FD6;
+}
+
+footer .button{
+  color: white;
+  background-color: #90A1E2;
+}
+
+footer .row{
+  margin-top: -80px;
 }
