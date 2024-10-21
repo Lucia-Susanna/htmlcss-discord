@@ -1,0 +1,79 @@
+/****************** reset *************/
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/****************** /reset *************/
+
+.debug{
+  background-color: rgba(41, 41, 229, 0.2);
+  border: 1px solid black;
+}
+
+header{
+  color: white;
+  background-color: #3160E0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.row{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box{
+  width: 80%;
+  padding: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container{
+  display: flex;
+  min-height: 200px; /************debug************/
+  justify-content: center;
+  align-items: center;
+}
+
+header .container{
+  width: 100%;
+  background-image: url(../img/jumbo.png);
+}  
+
+.grigio{
+  background-color: rgb(255, 0, 0, 0.2);
+}
+
+.blocco{
+  width: 80%;
+  height: 300px; /***************debug**************/
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.img{
+  width: 60%;
+}
+
+.txt{
+  width: 40%;
+}
+
+.info{
+  width: 80%;
+  height: 600px; /****************debug************/
+  display: flex;
+  justify-content: space-between;
+}
+
+.grande{
+  width: 250px;
+}
