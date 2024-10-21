@@ -45,6 +45,7 @@ header{
 header .container{
   width: 100%;
   background-image: url(../img/jumbo.png);
+  background-size: cover;
 }  
 
 .grigio{
