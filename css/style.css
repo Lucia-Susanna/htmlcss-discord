@@ -22,8 +22,10 @@ header{
 
 
 .row{
-  width: 80%;
+  min-width: 80%;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -42,16 +44,32 @@ header{
   align-items: center;
 }
 
+.button{
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
 header ul{
   list-style: none;
   display: flex;
-  font-size: 0.5rem;
 }
 header ul li{
   padding: 15px;
 }
+
+header ul li a:hover{
+  text-decoration: underline;
+}
 .logo img{
-  width: 70px;
+  width: 130px;
   padding: 15px;
 }
 
